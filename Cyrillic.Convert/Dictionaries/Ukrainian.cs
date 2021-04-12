@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Cyrillic.Convert.Dictionaries
 {
+    /// <summary>
+    /// https://zakon.rada.gov.ua/laws/show/55-2010-%D0%BF#Text
+    /// </summary>
     public class Ukrainian
     {
         private readonly Dictionary<char, string> ukr_to_latin_dictionary;
